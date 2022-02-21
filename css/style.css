@@ -186,6 +186,83 @@ span {
   background-size: cover;
   margin-right: 10px;
 }
+
+.popular-artist-title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
 .Queue-container {
   position: sticky;
+}
+.popular-artist-container {
+  display: flex;
+  margin: 10px;
+}
+
+.singer-name {
+  color: white;
+  padding-left: 20px;
+  /* text-align: center; */
+}
+
+.singer-1 {
+  background-image: url(/assets/img/artist-face/img-1.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-2 {
+  background-image: url(/assets/img/artist-face/img-2.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-3 {
+  background-image: url(/assets/img/artist-face/img-3.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-4 {
+  background-image: url(/assets/img/artist-face/img-4.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-5 {
+  background-image: url(/assets/img/artist-face/img-5.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-6 {
+  background-image: url(/assets/img/artist-face/img-6.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.singer-7 {
+  background-image: url(/assets/img/artist-face/img-8.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 50%;
 }
