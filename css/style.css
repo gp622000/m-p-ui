@@ -95,6 +95,7 @@ span {
 .artist-container {
   display: flex;
   margin: 20px;
+  opacity: 5px;
 }
 .artist-1 {
   background-image: url(/assets/img/artist/img1.jpg);
@@ -102,27 +103,58 @@ span {
   width: 200px;
   height: 200px;
   margin: 10px;
+  transition: 0.5s;
 }
+
+.artist-1:hover {
+  transform: scale(1.2);
+  max-width: 250px;
+  max-height: 250px;
+}
+
 .artist-2 {
   background-image: url(/assets/img/artist/img4.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
   margin: 10px;
+  transition: 0.5s;
 }
+
+.artist-2:hover {
+  transform: scale(1.2);
+  max-width: 220px;
+  max-height: 220px;
+}
+
 .artist-3 {
   background-image: url(/assets/img/artist/img3.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
   margin: 10px;
+  transition: 0.5s;
 }
+
+.artist-3:hover {
+  transform: scale(1.2);
+  max-width: 220px;
+  max-height: 220px;
+}
+
 .artist-4 {
   background-image: url(/assets/img/artist/img6.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
   margin: 10px;
+  transition: 0.5s;
+}
+
+.artist-4:hover {
+  transform: scale(1.2);
+  max-width: 220px;
+  max-height: 220px;
 }
 
 .latest-title {
@@ -181,10 +213,11 @@ span {
 
 .log-image {
   background-image: url(/assets/img/artist/img2.jpg);
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background-size: cover;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
 .popular-artist-title {
@@ -218,6 +251,11 @@ span {
   margin-right: 30px;
   border-radius: 50%;
 }
+
+.singer-1:hover {
+  filter: blur(0.5px);
+}
+
 .singer-2 {
   background-image: url(/assets/img/artist-face/img-2.jpg);
   background-size: cover;
@@ -258,6 +296,11 @@ span {
   margin-right: 30px;
   border-radius: 50%;
 }
+.singer-6:hover {
+  /* width: 50px;
+  height: 50px; */
+}
+
 .singer-7 {
   background-image: url(/assets/img/artist-face/img-8.jpg);
   background-size: cover;
