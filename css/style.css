@@ -2,11 +2,17 @@ body {
   background-color: rgb(31, 31, 49);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
 }
 
 .nav-bar {
   display: flex;
+  background-color: rgb(31, 31, 49);
   justify-content: space-between;
+  /* position: fixed; */
+  position: sticky;
+  box-shadow: rgb(46, 46, 66) 5px 5px 50px;
+  top: 0vh;
 }
 
 .right-side-wrapper {
@@ -234,6 +240,7 @@ span {
 .popular-artist-container {
   display: flex;
   margin: 10px;
+  width: 70%;
 }
 
 .singer-name {
@@ -390,4 +397,34 @@ span {
 .singer-7:hover .play {
   display: block;
   opacity: 0.5;
+}
+
+.type-container {
+  background-color: rgb(7, 7, 53);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 10px;
+  margin-left: 10px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.radio-icon img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.song-card {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(208, 216, 216);
+}
+
+.love {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  top: 40%;
 }
