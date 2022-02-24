@@ -234,9 +234,6 @@ span {
   margin-bottom: 10px;
 }
 
-.Queue-container {
-  position: sticky;
-}
 .popular-artist-container {
   display: flex;
   margin: 10px;
@@ -427,4 +424,27 @@ span {
   font-weight: bold;
   text-align: center;
   top: 40%;
+}
+
+.Queue-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin-top: 30px;
+  margin-left: -30px;
+}
+.title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.queue-button {
+  display: flex;
+  color: rgb(151, 151, 214);
+}
+
+.queue-button img {
+  width: 40px;
+  height: 40px;
 }
