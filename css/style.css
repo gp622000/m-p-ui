@@ -242,8 +242,8 @@ span {
 
 .singer-name {
   color: white;
-  padding-left: 20px;
-  /* text-align: center; */
+  text-align: center;
+  padding-left: 0px;
 }
 
 .singer-container {
@@ -425,13 +425,19 @@ span {
   text-align: center;
   top: 40%;
 }
-
+.song-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 14vh;
+}
 .Queue-container {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 70%;
   margin-top: 30px;
-  margin-left: -30px;
+  margin-left: 30px;
 }
 .title {
   color: white;
@@ -447,4 +453,59 @@ span {
 .queue-button img {
   width: 40px;
   height: 40px;
+}
+
+.song-list-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.song-list-card {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.number {
+  color: rgb(216, 209, 209);
+  margin-right: 20px;
+}
+.song-name-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.song-name {
+  color: rgb(218, 219, 219);
+}
+
+.singer-fname {
+  position: relative;
+  color: grey;
+}
+
+.song-logo {
+  background-image: url(/assets/img/artist/img1.jpg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  box-shadow: rgb(202, 200, 200) 0px 0px 7px 1px;
+}
+
+.favourite-icon img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
 }
