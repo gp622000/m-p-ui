@@ -402,7 +402,7 @@ span {
   flex-wrap: wrap;
   padding: 25px 10px;
   margin-left: 10px;
-  width: 80%;
+  width: 90%;
   margin-top: 20px;
 }
 
@@ -413,8 +413,8 @@ span {
 }
 
 .song-card {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background-color: rgb(208, 216, 216);
 }
 
