@@ -104,7 +104,7 @@ span {
   opacity: 5px;
 }
 .artist-1 {
-  background-image: url(/assets/img/artist/img1.jpg);
+  background-image: url(../assets/img/artist/img1.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -119,7 +119,7 @@ span {
 }
 
 .artist-2 {
-  background-image: url(/assets/img/artist/img4.jpg);
+  background-image: url(../assets/img/artist/img4.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -134,7 +134,7 @@ span {
 }
 
 .artist-3 {
-  background-image: url(/assets/img/artist/img3.jpg);
+  background-image: url(../assets/img/artist/img3.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -149,7 +149,7 @@ span {
 }
 
 .artist-4 {
-  background-image: url(/assets/img/artist/img6.jpg);
+  background-image: url(../assets/img/artist/img6.jpg);
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -218,7 +218,7 @@ span {
 }
 
 .log-image {
-  background-image: url(/assets/img/artist/img2.jpg);
+  background-image: url(../assets/img/artist/img2.jpg);
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -236,8 +236,9 @@ span {
 
 .popular-artist-container {
   display: flex;
+  flex-wrap: wrap;
   margin: 10px;
-  width: 70%;
+  width: 100%;
 }
 
 .singer-name {
@@ -250,7 +251,7 @@ span {
   position: relative;
 }
 .singer-1 {
-  background-image: url(/assets/img/artist-face/img-1.jpg);
+  background-image: url(../assets/img/artist-face/img-1.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -315,7 +316,7 @@ span {
 /* display: block; */
 
 .singer-2 {
-  background-image: url(/assets/img/artist-face/img-2.jpg);
+  background-image: url(../assets/img/artist-face/img-2.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -329,7 +330,7 @@ span {
 }
 
 .singer-3 {
-  background-image: url(/assets/img/artist-face/img-3.jpg);
+  background-image: url(../assets/img/artist-face/img-3.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -343,7 +344,7 @@ span {
 }
 
 .singer-4 {
-  background-image: url(/assets/img/artist-face/img-4.jpg);
+  background-image: url(../assets/img/artist-face/img-4.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -357,7 +358,7 @@ span {
 }
 
 .singer-5 {
-  background-image: url(/assets/img/artist-face/img-5.jpg);
+  background-image: url(../assets/img/artist-face/img-5.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -371,7 +372,7 @@ span {
 }
 
 .singer-6 {
-  background-image: url(/assets/img/artist-face/img-6.jpg);
+  background-image: url(../assets/img/artist-face/img-6.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -383,7 +384,7 @@ span {
   opacity: 0.5;
 }
 .singer-7 {
-  background-image: url(/assets/img/artist-face/img-8.jpg);
+  background-image: url(../assets/img/artist-face/img-8.jpg);
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -497,7 +498,7 @@ span {
 }
 
 .song-logo {
-  background-image: url(/assets/img/artist/img1.jpg);
+  background-image: url(../assets/img/artist/img1.jpg);
   background-size: cover;
   width: 40px;
   height: 40px;
