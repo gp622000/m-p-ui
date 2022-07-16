@@ -432,6 +432,7 @@ span {
   flex-direction: column;
   position: sticky;
   top: 14vh;
+  z-index:-1;
 }
 .Queue-container {
   display: flex;
